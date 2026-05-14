@@ -8,7 +8,7 @@ from aiogram.enums import ParseMode
 from aiohttp import web  # Додано для міні-сайту
 
 from config import BOT_TOKEN
-from database.db import init_db
+from db import init_db
 from handlers import client, admin, booking, profile, reviews
 from middlewares.throttling import ThrottlingMiddleware
 from utils.reminders import reminder_loop
