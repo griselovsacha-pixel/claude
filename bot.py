@@ -9,9 +9,9 @@ from aiohttp import web  # Додано для міні-сайту
 
 from config import BOT_TOKEN
 from db import init_db
-from handlers import client, admin, booking, profile, reviews
-from middlewares.throttling import ThrottlingMiddleware
-from utils.reminders import reminder_loop
+import client, admin, booking, profile, reviews
+from throttling import ThrottlingMiddleware
+from reminders import reminder_loop
 
 # Налаштування логування
 logging.basicConfig(
