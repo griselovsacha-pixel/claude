@@ -1,10 +1,10 @@
 import os
 
 # =================== НАСТРОЙКИ БОТА ===================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("8809261699:AAHZR34hOxD1waIDdUaKSsDOu7zkM0pYEEc")
 
 # ID администраторов (можно добавить несколько)
-ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "123456789").split(",")]
+ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "880628963").split(",")]
 
 # =================== НАСТРОЙКИ САЛОНА ===================
 SALON_NAME = "💅 Nail Studio"
